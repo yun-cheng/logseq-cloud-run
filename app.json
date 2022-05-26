@@ -1,0 +1,9 @@
+{
+  "name": "logseq",
+  "options": {
+    "allow-unauthenticated": true,
+    "port": 80,
+    "cpu": "1",
+    "http2": false
+  }
+}
