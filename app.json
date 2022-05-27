@@ -2,8 +2,16 @@
   "name": "logseq",
   "options": {
     "allow-unauthenticated": true,
-    "port": 80,
     "cpu": "1",
+    "memory": "256Mi",
+    "port": 80,
     "http2": false
-  }
+  },
+  "hooks": {
+    "postcreate": {
+        "commands": [
+            "gcloud run services update $K_SERVICE --region $GOOGLE_CLOUD_REGION --max-instances 1"
+        ]
+    }
+}
 }

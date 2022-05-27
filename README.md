@@ -1,5 +1,5 @@
-# Run Logseq on Google Cloud Run
+# Run Logseq Server on Google Cloud Run with Docker
 
-## Deploy to Google Cloud Run
+## One Click Deploy to Google Cloud Run
 
 [![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
